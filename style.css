@@ -1,0 +1,79 @@
+
+body {
+    background-image: url(./img/img0.jpg);
+
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family: "Farro", sans-serif;
+  } 
+  #myHeader {
+    background-color: rgb(167, 243, 186);
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #modoinsta {
+		
+    margin: 30px auto;
+    width: 85%;
+   
+   }
+
+.instagram_wid {
+
+background: white;
+height: fit-content;
+border: 1px solid #034b0b;
+border-radius: 10px;
+box-shadow: 0px 5px 0 0 #034e20;
+margin: 0;
+padding: 10px;
+       
+   }
+   
+.instagram-image {box-shadow: 0 0 0px 1px #e8e8e8;overflow: hidden;}
+.instagram-video {box-shadow: 0 0 0px 1px #e8e8e8;overflow: hidden;}
+
+.instagram-image:hover {
+   
+background: white;
+transform: scale(1.2);
+z-index: 1;
+box-shadow: 0px 0px 7px -1px black;
+border-radius: 10px;
+overflow: hidden;
+   
+   }
+   
+.instagram-video:hover {
+   
+background: white;
+transform: scale(1.2);
+z-index: 1;
+box-shadow: 0px 0px 7px -1px black;
+border-radius: 10px;
+overflow: hidden;
+   
+   }
+   
+.instagram-video:hover::after {	
+
+content: "";
+background-image: url(./img/iconevideo.png) no-repeat;
+filter: invert(1) drop-shadow(0px 0px 2px black);
+background-size: contain;
+position: absolute;
+display: flex;
+width: 50%;
+height: 50%;
+top: 0;
+margin: 25%;
+overflow: hidden;
+
+}
+
+h3 {
+     text-align: center;
+
+}
